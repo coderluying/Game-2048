@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="gcs.css">
+        <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
+        </script>
+        <script src="gjs.js"></script>
+    <script src="copy.js.js"></script>
+        <title></title>
+    </head>
+    <div class="all">
+        <body>
+        <audio id="auto">
+            <source src="http://fjdx.sc.chinaz.com/files/download/sound1/201409/4951.mp3" type="audio/ogg">
+        </audio>
+        <div class="wall">
+            <div class="board" id="bd">
+                <script>
+                    init();
+                  color();
+                </script>
+
+            </div>
+            <div id="aiBoard">
+                <button class="aibutton" type="button" onclick="baseInitAI()">
+                     initialize
+                </button>
+                <button class="aibutton" type="button" onclick="aiStop()">
+                    stop Ai
+                </button>
+                <button  class="aibutton"  type="button" onclick="aiPlay()">
+                     Run Ai
+                </button>
+
+            </div>
+        </div>
+        <div id="hint">
+            Ai next Step:<em id="direction"></em>
+        </div>
+            <div  class="scoreBoard">
+
+                <div id="count">
+                    Score:<em id="point">0</em>
+                </div>
+
+            </div>
+            <div class="scoreBoard">
+
+                <div id="max">
+                  MaxPont:<em id="maxpoint">0</em>
+                </div>
+            </div>
+        <div class="controlwall">
+            <div class="control">
+               <button id="botton_left" type="button" onclick="mLeft()">
+                  left
+               </button>
+                <button id="botton_up" type="button" onclick="mUp()">
+                    up
+                </button>
+                <button id="botton_right" type="button" onclick="mRight()">
+                    right
+                </button>
+                <button id="botton_down" type="button" onclick="mDown()">
+                    down
+                </button>
+            </div>
+        </div>
+
+
+
+
+        </body>
+</div>
+<script>
+    baseInitAI();
+    test();
+</script>
+</html>

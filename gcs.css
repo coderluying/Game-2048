@@ -1,0 +1,236 @@
+
+#auto{
+
+}
+#aiBoard{
+
+    margin-top: 20px;
+    text-align: center;
+}
+.aibutton
+{
+    background-color:lightskyblue;
+    font: italic 25px arial ,sans-serif;
+    border-radius: 5px;
+
+}
+
+body{
+    background:url(bk.jpeg);
+    background-size:1400px 1400px;
+    float:left;
+}
+#foot{
+
+    text-align: center;
+}
+.all{
+
+    width: 800px;
+    height:800px;
+
+    border:10px  ;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#botton_up{
+
+    background-color: greenyellow;
+    width: 80px;
+    height:50px;
+    border-radius: 20px;
+    font: italic 30px arial ,sans-serif;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+#botton_down{
+
+    background-color: cyan;
+    width: 80px;
+    height:50px;
+    border-radius: 20px;
+    font: italic 30px arial ,sans-serif;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#botton_left{
+
+    background-color: powderblue;
+    width: 80px;
+    height:50px;
+    border-radius: 20px;
+    font: italic 30px arial ,sans-serif;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+#botton_right{
+
+    background-color: gold;
+    width: 80px;
+    height:50px;
+    border-radius: 20px;
+    font: italic 30px arial ,sans-serif;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.control{
+   // background-color: lightskyblue;
+    width: 250px;
+    height:100px;
+    border:10px ;
+    border-radius: 30px;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+#point{
+
+    width:18px;
+    height:18px;
+    color: red;
+    font: italic 20px Monospace ;
+
+}
+#maxpoint{
+
+    width:18px;
+    height:18px;
+    color: red;
+    font: italic 20px Monospace ;
+
+}
+#count{
+
+
+    width:20px;
+    height:20px;
+    margin:5px;
+
+    font: italic 20px arial ,sans-serif;
+
+    text-align: center;
+
+}
+
+#max{
+
+
+    width:20px;
+    height:20px;
+    margin:5px;
+
+    font: italic 20px arial ,sans-serif;
+
+    text-align: center;
+
+}
+
+#direction{
+    margin-top: 20px;
+    text-align: center;
+    width:18px;
+    height:18px;
+    color: red;
+    font: italic 20px Monospace ;
+}
+#hint{
+    background-color: aliceblue;
+    width: 200px;
+    height:30px;
+    border-radius: 10px;
+    margin-left:300px;
+    margin-top:5px;
+    margin-bottom: 5px;
+
+
+}
+.scoreBoard{
+    background-color: aliceblue;
+    width: 200px;
+    height:30px;
+    border-radius: 10px;
+    margin-left:300px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.controlwall{
+    width: 260px;
+    height:100px;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+
+}
+.blank{
+    background-color: darkgray;
+    float:left;
+    width:90px;
+    height:90px;
+    margin:5px;
+    border:10px  ;
+    border-radius: 20px;
+    font: italic 60px arial ,sans-serif;
+    text-shadow: 5px 5px 5px white;
+    text-align: center;
+
+}
+.two{
+    background-color: lightpink;
+}
+.four{
+    background-color: burlywood;
+}
+.eight{
+    background-color: dodgerblue;
+}
+.sixteen{
+    background-color: firebrick;
+}
+.thirdteen{
+
+    background-color: red;
+
+}
+.sixty{
+    background-color:gold;
+}
+.other{
+    background-color: greenyellow;
+}
+
+
+.board{
+    background-color: gainsboro;
+    width: 400px;
+    height:400px;
+
+    border:10px  ;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.wall{
+    width: 800px;
+    height:460px;
+
+    border:10px  ;
+    border-radius: 25px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
